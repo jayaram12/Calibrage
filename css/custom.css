@@ -1,0 +1,142 @@
+.navbar-brand.separate {overflow:hidden; padding:0; height:auto;}
+.aboutus-content {overflow:hidden;}
+.aboutus-content p {font-size:15px; text-align:justify;}
+
+.f-category {
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  margin-right: -1px;
+  border-bottom: 1px solid #e8ecec;
+  border-right: 1px solid #e8ecec; height:400px;
+}
+
+.f-category a {
+  display: block;
+}
+
+.f-category:hover {
+  background: #ff7829;
+}
+
+.f-category .icon {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  border-radius: 4px;
+  transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.f-category .icon i {
+  font-size: 36px;
+  color: #333;
+  line-height: 50px;
+}
+
+.f-category h3 {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 0;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+  color: #333;
+}
+
+.f-category p {
+  color: #333;
+}
+
+.f-category:hover {
+  background: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.f-category:hover h3 {
+  color: #ff7829;
+}
+
+.f-category:hover .icon {
+  -webkit-transform: rotateY(160deg);
+  -moz-transform: rotateY(160deg);
+  -ms-transform: rotateY(160deg);
+  -o-transform: rotateY(160deg);
+  transform: rotateY(160deg);
+}
+
+.f-category:hover .icon i {
+  color: #ff7829;
+}
+
+.ourtechnologies {overflow:hidden;}
+.ourtechnologies p {margin-bottom:20px;}
+.ourtechnologies h4 {padding:10px 20px; background-color:#ff7829; color:#fff; border-radius:4px; margin-right:10px; float:left; margin-bottom:30px; font-size:16px;}
+
+.testimonial-item {
+  width: 90%;
+  margin: 0 auto; }
+  .testimonial-item img {
+    width: 100px; }
+  .testimonial-item p {
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 20px; }
+  .testimonial-item .name {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #ed1c24; }
+  .testimonial-item.white {
+    color: #fff; }
+
+ul.logo-group {
+  overflow: hidden;
+  padding: 0;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-bottom: none;
+  position: relative; }
+  ul.logo-group li {
+    width: 20%;
+    float: left;
+    height: 150px;
+    list-style: none;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd; }
+    ul.logo-group li img {
+      display: block;
+      margin: 0 auto; }
+  ul.logo-group.width33 li {
+    width: 33.3%; }
+
+    @media screen and (min-width: 768px) {
+    .navbar.navbar-default .navbar-nav {
+
+        width: 100%;
+    }
+
+  }
+
+.contactaddress {overflow:hidden;}
+.contactaddress h5 {margin-bottom:10px;}
+.nopaddingleft {padding-left:0px;}
+.nopaddingright {padding-right:0px;}
